@@ -1,14 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Slider"
              x:Class="Slider.SliderPuzzle">
 
-  <Grid BackgroundColor="Blue">
+  <Grid BackgroundColor="Blue" VerticalOptions="Center" Margin="4">
     <Grid.RowDefinitions>
-      <RowDefinition Height="50" />
-      <RowDefinition Height="50" />
-      <RowDefinition Height="50" />
-      <RowDefinition Height="50" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
     </Grid.RowDefinitions>
 
     <Grid.ColumnDefinitions>
@@ -18,22 +19,26 @@
       <ColumnDefinition Width="*" />
     </Grid.ColumnDefinitions>
 
-
-    <Label Text="2" Grid.Row="0" Grid.Column="1" />
-    <Label Text="3" Grid.Row="0" Grid.Column="2" />
-    <Label Text="4" Grid.Row="0" Grid.Column="3" />
-    <Label Text="5" Grid.Row="1" Grid.Column="0" />
-    <Label Text="6" Grid.Row="1" Grid.Column="1" />
-    <Label Text="7" Grid.Row="1" Grid.Column="2" />
-    <Label Text="8" Grid.Row="1" Grid.Column="3" />
-    <Label Text="9" Grid.Row="2" Grid.Column="0" />
-    <Label Text="10" Grid.Row="2" Grid.Column="1" />
-    <Label Text="11" Grid.Row="2" Grid.Column="2" />
-    <Label Text="12" Grid.Row="2" Grid.Column="3" />
-    <Label Text="13" Grid.Row="3" Grid.Column="0" />
-    <Label Text="14" Grid.Row="3" Grid.Column="1" />
-    <Label Text="15" Grid.Row="3" Grid.Column="2" />
-    <Label Text="16" Grid.Row="3" Grid.Column="3" />
+    <Image Grid.Row="0" Grid.Column="0" Source="{local:ImageResource Slider.Image.11.png}" />
+    <Image Grid.Row="0" Grid.Column="1" Source="{local:ImageResource Slider.Image.12.png}" />
+    <Image Grid.Row="0" Grid.Column="2" Source="{local:ImageResource Slider.Image.13.png}" />
+    <Image Grid.Row="0" Grid.Column="3" Source="{local:ImageResource Slider.Image.14.png}" />
+    
+    <Image Grid.Row="1" Grid.Column="0" Source="{local:ImageResource Slider.Image.21.png}" />
+    <Image Grid.Row="1" Grid.Column="1" Source="{local:ImageResource Slider.Image.22.png}" />
+    <Image Grid.Row="1" Grid.Column="2" Source="{local:ImageResource Slider.Image.23.png}" />
+    <Image Grid.Row="1" Grid.Column="3" Source="{local:ImageResource Slider.Image.24.png}" />
+    
+    <Image Grid.Row="2" Grid.Column="0" Source="{local:ImageResource Slider.Image.31.png}" />
+    <Image Grid.Row="2" Grid.Column="1" Source="{local:ImageResource Slider.Image.32.png}" />
+    <Image Grid.Row="2" Grid.Column="2" Source="{local:ImageResource Slider.Image.33.png}" />
+    <Image Grid.Row="2" Grid.Column="3" Source="{local:ImageResource Slider.Image.34.png}" />
+    
+    <Image Grid.Row="3" Grid.Column="0" Source="{local:ImageResource Slider.Image.41.png}" />
+    <Image Grid.Row="3" Grid.Column="1" Source="{local:ImageResource Slider.Image.42.png}" />
+    <Image Grid.Row="3" Grid.Column="2" Source="{local:ImageResource Slider.Image.43.png}" />
+    <Image Grid.Row="3" Grid.Column="3" Source="{local:ImageResource Slider.Image.44.png}" />
+    
   </Grid>
   
 </ContentPage>
