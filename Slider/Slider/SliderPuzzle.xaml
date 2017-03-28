@@ -4,12 +4,12 @@
              xmlns:local="clr-namespace:Slider"
              x:Class="Slider.SliderPuzzle">
 
-  <Grid BackgroundColor="Blue">
+  <Grid BackgroundColor="Blue" VerticalOptions="Center" Margin="4">
     <Grid.RowDefinitions>
-      <RowDefinition Height="50" />
-      <RowDefinition Height="50" />
-      <RowDefinition Height="50" />
-      <RowDefinition Height="50" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="*" />
     </Grid.RowDefinitions>
 
     <Grid.ColumnDefinitions>
