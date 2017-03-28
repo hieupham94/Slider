@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Slider.SliderPuzzle">
+
+  <Grid BackgroundColor="Blue">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+      <RowDefinition Height="50" />
+    </Grid.RowDefinitions>
+
+    <Grid.ColumnDefinitions>
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+      <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+
+
+    <Label Text="2" Grid.Row="0" Grid.Column="1" />
+    <Label Text="3" Grid.Row="0" Grid.Column="2" />
+    <Label Text="4" Grid.Row="0" Grid.Column="3" />
+    <Label Text="5" Grid.Row="1" Grid.Column="0" />
+    <Label Text="6" Grid.Row="1" Grid.Column="1" />
+    <Label Text="7" Grid.Row="1" Grid.Column="2" />
+    <Label Text="8" Grid.Row="1" Grid.Column="3" />
+    <Label Text="9" Grid.Row="2" Grid.Column="0" />
+    <Label Text="10" Grid.Row="2" Grid.Column="1" />
+    <Label Text="11" Grid.Row="2" Grid.Column="2" />
+    <Label Text="12" Grid.Row="2" Grid.Column="3" />
+    <Label Text="13" Grid.Row="3" Grid.Column="0" />
+    <Label Text="14" Grid.Row="3" Grid.Column="1" />
+    <Label Text="15" Grid.Row="3" Grid.Column="2" />
+    <Label Text="16" Grid.Row="3" Grid.Column="3" />
+  </Grid>
+  
+</ContentPage>
